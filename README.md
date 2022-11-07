@@ -3,7 +3,9 @@
 **Authors:** Dapeng Feng, Yuhua Qi*, Shipeng Zhong, Zhiqiang Chen, Yudu Jiao, Qiming Chen, Tao Jiang, Hongbo Chen
 
 <!-- https://user-images.githubusercontent.com/18318646/197709283-a794c23d-3f43-4388-9ce0-ea09e0f10324.mp4 -->
+
 https://user-images.githubusercontent.com/18318646/197722969-0aaf8670-0783-48bb-a05d-d9056aae626c.mp4
+
 <!-- https://user-images.githubusercontent.com/18318646/197725374-16536150-32bd-4d1b-bd64-4e104b581f65.mp4 -->
 
 The HD video is available on [Bilibili](https://www.bilibili.com/video/BV1Ze41137kx/?vd_source=78d041dc03a4aac231b5cac62feffc70).
@@ -53,19 +55,7 @@ We design four kinds of trajectory following different intra/inter-robot loop cl
 
 <p align="center"> <img title="The outdoor tracks of the S3E dataset." src="figures/sunyatsen.png" alt="The outdoor tracks of the S3E dataset." data-align="center" height="480"> </p>
 
-The above figure shows our trajectories in the outdoor environment.
 
-<p align="center"> <img title="Square_1" src="figures/square_1.gif" alt="square_1.gif" data-align="center"> </p>
-
-<p align="center"> <img title="Sqaure_2" src="figures/square_2.gif" alt="square_2.gif" data-align="center"> </p>
-
-<p align="center"> <img title="Library" src="figures/library.gif" alt="library.gif" data-align="center"> </p>
-
-<p align="center"> <img title="College" src="figures/college.gif" alt="college.gif" data-align="center"> </p>
-
-<p align="center"> <img title="Dormitory" src="figures/dormitory.gif" alt="dormitory.gif" data-align="center"> </p>
-
-<div align="center">
 
 | Name              | Env.    | Time[s] | Size[GB] | Features              | Rosbag | GT  |
 | ----------------- |:------- | ------- | -------- | --------------------- | ------ | --- |
@@ -99,6 +89,21 @@ The high buildings and trees in our outdoor experiment will **disturb** the RT
 ## License
 
 This work is under the **Apache 2.0** license.
+
+## Citation
+
+```latex
+@misc{https://doi.org/10.48550/arxiv.2210.13723,
+  doi = {10.48550/ARXIV.2210.13723},
+  url = {https://arxiv.org/abs/2210.13723},
+  author = {Feng, Dapeng and Qi, Yuhua and Zhong, Shipeng and Chen, Zhiqiang and Jiao, Yudu and Chen, Qiming and Jiang, Tao and Chen, Hongbo},
+  keywords = {Robotics (cs.RO), Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {S3E: A Large-scale Multimodal Dataset for Collaborative SLAM},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
 ## Acknowledgement
 
