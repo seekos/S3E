@@ -59,6 +59,8 @@ We design four kinds of trajectory following different intra/inter-robot loop cl
 
 <p align="center"> <img title="The outdoor tracks of the S3E dataset." src="figures/sunyatsen.png" alt="The outdoor tracks of the S3E dataset." data-align="center" height="480"> </p>
 
+<div align="center">
+
 | Name              | Env.    | Time[s] | Size[GB] | Features              |
 | ----------------- |:------- | ------- | -------- | --------------------- |
 | Square_1          | Outdoor | 460     | 17.8     | Staight line          |
