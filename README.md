@@ -10,6 +10,10 @@ https://user-images.githubusercontent.com/18318646/197722969-0aaf8670-0783-48bb-
 
 The HD video is available on [Bilibili](https://www.bilibili.com/video/BV1Ze41137kx/?vd_source=78d041dc03a4aac231b5cac62feffc70).
 
+## **<font color='red'>Update ! </font>**
+
+### 2022/11/08 The data download [link](https://download.amovlab.com/s3e/) is available.
+
 ## Abstract:
 
 With the advanced request to employ a team of robots to perform a task collaboratively, the research community has become increasingly interested in collaborative simultaneous localization and mapping. Unfortunately, existing datasets are limited in the scale and variation of the collaborative trajectories they capture, even though generalization between inter-trajectories among different agents is crucial to the overall viability of collaborative tasks. To help align the research community's contributions with real-world multiagent ordinated SLAM problems, we introduce S3E, a novel large-scale multimodal dataset captured by a fleet of unmanned ground vehicles along four designed collaborative trajectory paradigms. S3E consists of 7 outdoor and 5 indoor scenes that each exceed 200 seconds, consisting of well synchronized and calibrated high-quality stereo camera, LiDAR, and high-frequency IMU data. Crucially, our effort exceeds previous attempts regarding dataset size, scene variability, and complexity. It has 4x as much average recording time as the pioneering EuRoC dataset. We also provide careful dataset analysis as well as baselines for collaborative SLAM and single counterparts.
@@ -55,22 +59,20 @@ We design four kinds of trajectory following different intra/inter-robot loop cl
 
 <p align="center"> <img title="The outdoor tracks of the S3E dataset." src="figures/sunyatsen.png" alt="The outdoor tracks of the S3E dataset." data-align="center" height="480"> </p>
 
-
-
-| Name              | Env.    | Time[s] | Size[GB] | Features              | Rosbag | GT  |
-| ----------------- |:------- | ------- | -------- | --------------------- | ------ | --- |
-| Square_1          | Outdoor | 460     | 17.8     | Staight line          |        |     |
-| Square_2          | Outdoor | 255     | 9.4      | Staight line          |        |     |
-| Library           | Outdoor | 454     | 16.3     | Circle                |        |     |
-| College           | Outdoor | 878     | 29.4     | Circle, Long-term     |        |     |
-| Playground_1      | Outdoor | 298     | 8.7      | Circle                |        |     |
-| Playground_2      | Outdoor | 222     | 6.3      | Random walk           |        |     |
-| Dormitory         | Outdoor | 671     | 23.5     | Few overlap           |        |     |
-| Teaching_Building | Indoor  | 798     | 27.3     | Indoor/Outdoor toggle |        |     |
-| Laboratory_1      | Indoor  | 292     | 9.6      | Room                  |        |     |
-| Laboratory_2      | Indoor  | 391     | 12.7     | Room                  |        |     |
-| Laboratory_3      | Indoor  | 410     | 13.3     | Room                  |        |     |
-| Laboratory_4      | Indoor  | 380     | 12.7     | Room                  |        |     |
+| Name              | Env.    | Time[s] | Size[GB] | Features              |
+| ----------------- |:------- | ------- | -------- | --------------------- |
+| Square_1          | Outdoor | 460     | 17.8     | Staight line          |
+| Square_2          | Outdoor | 255     | 9.4      | Staight line          |
+| Library           | Outdoor | 454     | 16.3     | Circle                |
+| College           | Outdoor | 878     | 29.4     | Circle, Long-term     |
+| Playground_1      | Outdoor | 298     | 8.7      | Circle                |
+| Playground_2      | Outdoor | 222     | 6.3      | Random walk           |
+| Dormitory         | Outdoor | 671     | 23.5     | Few overlap           |
+| Teaching_Building | Indoor  | 798     | 27.3     | Indoor/Outdoor toggle |
+| Laboratory_1      | Indoor  | 292     | 9.6      | Room                  |
+| Laboratory_2      | Indoor  | 391     | 12.7     | Room                  |
+| Laboratory_3      | Indoor  | 410     | 13.3     | Room                  |
+| Laboratory_4      | Indoor  | 380     | 12.7     | Room                  |
 
 </div>
 
