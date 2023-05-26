@@ -12,6 +12,7 @@ The HD video is available on [Bilibili](https://www.bilibili.com/video/BV1Ze4113
 
 ## **<font color='red'>Update ! </font>**
 
+### 2023/05/26 [BaiduYun](https://pan.baidu.com/s/18zzxXACyd3W3OkbSg2vLrA?pwd=ivnm) is available.
 ### 2022/11/08 The data download [link](https://download.amovlab.com/s3e/) is available.
 
 ## Abstract:
